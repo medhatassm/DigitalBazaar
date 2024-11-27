@@ -60,5 +60,7 @@ Digital Bazaar is a dynamic e-commerce platform dedicated to electronic products
 - [Bootswatch - Litera Theme](https://bootswatch.com/litera/)
 - [Toastr](https://github.com/CodeSeven/toastr)
 
+![Screenshot 2024-11-27 at 2 50 32 PM](https://github.com/user-attachments/assets/46097d8d-b12c-448c-9ddf-3886553f3bbe)
+
 ---
 
