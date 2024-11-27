@@ -22,3 +22,43 @@ Digital Bazaar is a dynamic e-commerce platform dedicated to electronic products
 
 ---
 
+# First - Category CRUD Operations
+
+## Database Category Table (UML)
+
+| Properties | Data Type | Configuration Conventions                          |
+| -- | --- |----------------------------------------------------|
+| Id | int | - Primary Key <br/>- Auto Increment                |
+| Title | string | - Required <br/> - MaxLength(30)                   |
+| Count | int | - Default Value: 0                                 |
+| Priority | int | - Default Value: 0 <br/> - Required <br/> - Unique 
+| CreatedDate | DateTime | - Default Value:  `GETDATE()` <br/> - Required     |
+| UpdatedDate | DateTime? | - Nullable <br/> - Auto Increment                  |
+| IsActive | bool | - Default Value:  `true` <br/> - Required          |
+
+### **NuGet Packages**
+
+- microsoft.EntityFrameworkCore.Tools
+- microsoft.EntityFrameworkCore.SqlServer
+
+### Features Completed
+
+- Display All Category into List.
+- Insert New Category To Database.
+- Update Category Data and Save it to Database.
+- Delete Category From Database.
+
+### ASP.Net Tools
+
+- Entity Framework To Deal With Database.
+- Dependency Injection To Set DbContext Configuration.
+- MVC Pattern To Build The Project.
+- Using Data Annotation For Configuration Convention.
+
+### Tools and Resources
+
+- [Bootswatch - Litera Theme](https://bootswatch.com/litera/)
+- [Toastr](https://github.com/CodeSeven/toastr)
+
+---
+
