@@ -1,7 +1,15 @@
+using DigitalBazaarWeb.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Connection With DB Using Dependency Injection
+builder.Services.AddDbContext<AppDbContext>(
+    option => option.UseSqlServer(
+        builder.Configuration.GetConnectionString("constr")));
 
 var app = builder.Build();
 
